@@ -490,3 +490,7 @@ h6 {
      padding-left: 45px;
   }
   } 
+
+.bgimg{
+     background-image: url(img/theme_bg_2017.png);
+}
