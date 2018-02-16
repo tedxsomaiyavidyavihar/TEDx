@@ -79,12 +79,13 @@ h6 {
 }
 
 .hm-gradient .full-bg-img {
-    background: -moz-linear-gradient(45deg, rgba(226, 93, 83,0.6), rgba(229, 73, 61,0.8) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(226, 93, 83,0.6), rgba(229, 73, 61,0.8) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(226, 93, 83,0.6)), to(rgba(229, 73, 61,0.8)));
-    background: -o-linear-gradient(45deg, rgba(226, 93, 83,0.6), rgba(229, 73, 61,0.8) 100%);
-    background: linear-gradient(to 45deg, rgba(226, 93, 83,0.6), rgba(229, 73, 61,0.8) 100%); 
+    background: -moz-linear-gradient(45deg, rgba(3, 270, 270,0.6), rgba(0, 255, 255,0.8) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(3, 270, 270,0.6), rgba(0, 255, 255,0.8) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(3, 270, 270,0.6)), to(rgba(0, 255, 255,0.8)));
+    background: -o-linear-gradient(45deg, rgba(3, 270, 270,0.6), rgba(0, 255, 255,0.8) 100%);
+    background: linear-gradient(to 45deg, rgba(3, 270, 270,0.6), rgba(0, 255, 255,0.8) 100%); 
 }
+
 @media (max-width: 450px) {
     .margins {
         margin-right: 1rem;
@@ -478,12 +479,14 @@ h6 {
   }
   }  
 @media only screen and (min-width: 768px) {
-.name-padding{
+.desk{
    padding-bottom:15px;
-   padding-top:15px;
 }
 }
 
-.bgimg{
-	background-image: url(img/theme_bg_2017.png);
-}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .mobile-view-speakers{
+     width: 350px;
+     padding-left: 45px;
+  }
+  } 
