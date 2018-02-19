@@ -21,7 +21,7 @@
 }
 
 .black_img :hover{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	opacity:0.3;
     transition:1s;
 }
