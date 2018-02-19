@@ -20,7 +20,7 @@
     transition:1s;
 }
 
-.team :hover img_black{
+.black_img : hover{
 	background-color: rgba(0, 0, 0, 0.5);
 	opacity:0.9;
     transition:1s;
