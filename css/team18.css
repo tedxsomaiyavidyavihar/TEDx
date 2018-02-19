@@ -20,11 +20,6 @@
     transition:1s;
 }
 
-.black_img :hover{
-	background-color: rgba(0, 0, 0, 0.8);
-	opacity:0.3;
-    transition:1s;
-}
 
 #iconteamr{
     color:#e62b1e !important;;
