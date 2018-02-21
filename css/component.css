@@ -9,6 +9,11 @@
 float:left;
 	
 }
+.grid .sk {
+    max-width: 100%;
+float:left;
+	
+}
 
 @media screen and (min-width: 551px) {
     .grid {
@@ -16,6 +21,10 @@ float:left;
       	width: 100%;
     }
     .grid .spk {    
+        padding:22px;
+        width: 33%;        	
+    }
+        .grid .sk {    
         padding:22px;
         width: 33%;        	
     }
@@ -30,6 +39,12 @@ float:left;
 
     .grid .spk:hover figcaption h2,
     .grid .spk:hover figcaption p {
+        
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    .grid .sk:hover figcaption h2,
+    .grid .sk:hover figcaption p {
         
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
@@ -52,6 +67,12 @@ float:left;
         margin: 2px;
         font-size:10px;
 	}
+    .grid .sk {
+		width: 48%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size:10px;
+	}
     .grid figcaption {
         padding-top:25%;
         line-height: normal;
@@ -69,6 +90,11 @@ float:left;
 
     .grid .spk:hover figcaption h2,
     .grid .spk:hover figcaption p {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    .grid .sk:hover figcaption h2,
+    .grid .sk:hover figcaption p {
         -webkit-transform: translateY(5px);
         transform: translateY(5px);
     }
@@ -174,6 +200,41 @@ float:left;
 	transition: opacity 0.5s, transform 1s;
 }
 
+.grid .sk svg .st0{
+    fill:#FF0000;
+    fill-opacity:0.4;    	
+       	-webkit-transform: translateY(120px);
+	transform: translateY(120px) ;
+    	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
+	transition: opacity 0.5s, transform 1s;
+}
+
+ .grid .sk:hover svg .st0{
+        fill-opacity:0.4; 
+       	-webkit-transform: translateY(-64px);
+	transform: translateY(-64px) ;
+    	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
+	transition: opacity 0.5s, transform 1s;
+}
+
+.grid .sk svg .st1{
+    fill:aqua;
+    fill-opacity:0.4;    	
+       	-webkit-transform: translateY(120px);
+	transform: translateY(120px) ;
+    	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
+	transition: opacity 0.5s, transform 1s;
+}
+
+ .grid .sk:hover svg .st1{
+         fill-opacity:0.4;  
+
+       	-webkit-transform: translateY(-64px);
+	transform: translateY(-64px) ;
+    	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
+	transition: opacity 0.5s, transform 1s;
+}
+
 .overlayr {
   position: absolute;
   bottom: 0;
@@ -204,6 +265,10 @@ float:left;
 	opacity: 0;
 }
 
+.grid .sk:hover .overlaya,.grid .sk:hover .overlayr {
+	opacity: 0;
+}
+
 .grid .aqua {
     color:#000;
 }
@@ -220,4 +285,11 @@ float:left;
 	opacity: 0;
 }
 
+.grid .sk:hover figcaption p {
+	opacity: 1;
+}
+
+.grid .sk:hover figcaption h2 {
+	opacity: 0;
+}
 
