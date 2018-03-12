@@ -397,5 +397,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', end
 
 
   @media screen and (min-width: 0px) and (max-width: 767px) {/* show it on small screens */
-  .img-mobile-view { width: 200px; height: 150px;}   
+  .img-mobile-view { width: 250px; height: 150px;}   
 	}  
