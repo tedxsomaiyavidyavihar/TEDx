@@ -402,5 +402,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', end
 
 
   @media screen and (min-width: 768px){/* show it on big screens */   
- .desktop-view-css { margin-left: 670px; }  
+ .desktop-view-css { margin-left: 250px; }  
 }
