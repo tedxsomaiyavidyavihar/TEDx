@@ -399,3 +399,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', end
   @media screen and (min-width: 0px) and (max-width: 767px) {/* show it on small screens */
   .img-mobile-view { width: 250px; height: 150px;}   
 	}  
+
+
+  @media screen and (min-width: 768px){/* show it on big screens */   
+ .desktop-view-css { margin-left: 60px; }  
+}
