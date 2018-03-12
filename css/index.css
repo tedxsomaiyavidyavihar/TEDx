@@ -400,7 +400,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', end
   .img-mobile-view { width: 250px; height: 150px;}   
 	}  
 
-
-  @media screen and (min-width: 768px){/* show it on big screens */   
- .desktop-view-css { margin-left: 100px; }  
-}
